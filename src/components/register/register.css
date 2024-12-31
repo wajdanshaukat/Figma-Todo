@@ -1,0 +1,39 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+
+.form-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input {
+  width: 320px;
+  flex: 1;
+  min-width: 0;
+}
+input[type="email"],
+input[type="password"],
+.input {
+  background-color: #f2f2f2;
+  width: 320px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-footer {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
